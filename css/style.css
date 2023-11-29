@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .fecha, .reloj {
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .reloj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #dia {
+    font-size: 24px;
+  }
+  
+  #hora {
+    font-size: 20px;
+    display: flex;
+
+    align-items: flex-end;
+  }
+  
+
+  
+  #segundos {
+    margin-bottom: -4px;
+  }
+  
+  #periodo {
+    margin-bottom: 2px;
+  }
